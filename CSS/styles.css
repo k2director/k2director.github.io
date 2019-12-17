@@ -1,0 +1,122 @@
+html{
+  background-color: hsl(257, 40%, 49%);
+}
+
+/* body{
+  background-color: purple;
+  background-color: hsl(257, 40%, 49%);
+} */
+
+
+
+.left-column-image{
+  background-color: hsl(257, 40%, 49%);
+}
+
+.ui-graphic{
+}
+
+.top-logo{
+  background-color: hsl(257, 40%, 49%);
+  padding: 55px 60px 45px;
+}
+
+.logo{
+width: 17%
+}
+
+.row{
+  background-color: hsl(257, 40%, 49%);
+  padding: 2.5rem 3rem;
+}
+
+h1{
+  color: white;
+  font-size: 220%;
+  line-height: 1.4;
+}
+
+p{
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  color: white;
+}
+
+.right-column-text{
+  margin-left: 20px;
+  padding-top: 40px;
+}
+
+.social-media-icons{
+  background-color: hsl(257, 40%, 49%);
+  text-align: right;
+  padding-right: 45px;
+
+}
+
+.circle{
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+
+.fab{
+  font-size: 150%;
+  padding-right: 45px;
+  color: white;
+}
+
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+@media only screen and (max-width: 1044px) {
+
+
+.right-column-text{
+text-align: center;}
+
+
+.graphic{
+margin: auto;
+width: 95%}
+
+
+.social-media-icons{
+  text-align: center;
+  padding: 0px 22px;
+}
+
+.fab{
+  padding: 0px 22px;
+}
+
+
+.logo{
+  width: 37%;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1043px) {
+
+
+.logo{
+    width: 35%;
+}
+
+.right-column-text{
+  text-align: center;
+}
+
+
+
+}
